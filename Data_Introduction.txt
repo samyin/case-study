@@ -1,0 +1,18 @@
+
+In case study #1 we will work with human brain connection network data.  This data consists of 114 subjects containing 13 covariates (descriptions below) & their brain connection network W, which is a 68x68x114 array with W[u,v,i] being the number of fibers connecting brain regions u and v for the ith subject..  The data file is “Brain_network.RData”.  In order to visualize the brain networks it’s important to locate each region in 2d or 3d space; see Rpackage qgraph (2d) & the 3d brain net viewer (matlab). 
+
+URSI and INDICATOR identify the different subjects.
+1. CCI (Composite Creativity Index)
+2. Sex  - 0/1
+3. Age
+4. Subject Type 
+5. FSIQ (Full-scale Intelligence Quotient)
+6. CAQ (Creative Agreement Questionnaire)
+7. Neuroticism - one of the Big Five personality traits 
+8. Extraversion - one of the Big Five personality traits
+9. Openness - one of the Big Five personality traits
+10. Agreeableness - one of the Big Five personality traits
+11. Conscientiousness - one of the Big Five personality traits 
+
+For further information on the Big Five personality traits see https://en.wikipedia.org/wiki/Big_Five_personality_traits
+
